@@ -65,9 +65,9 @@
     </licenses>
 
     <scm>
-        <connection>scm:git:git://github.com/bonigarcia/webdrivermanager.git</connection>
-        <developerConnection>scm:git:git@github.com:bonigarcia/webdrivermanager.git</developerConnection>
-        <url>https://github.com/bonigarcia/webdrivermanager</url>
+        <connection>scm:git:git://github.com/ricksbrown/webdrivermanager.git</connection>
+        <developerConnection>scm:git:git@github.com:ricksbrown/webdrivermanager.git</developerConnection>
+        <url>https://github.com/ricksbrown/webdrivermanager</url>
         <tag>develop</tag>
     </scm>
 
@@ -270,15 +270,10 @@
     </build>
 
     <distributionManagement>
-        <snapshotRepository>
-            <id>sonatype-nexus-snapshots</id>
-            <name>Sonatype Nexus snapshot repository</name>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-        </snapshotRepository>
         <repository>
-            <id>sonatype-nexus-staging</id>
-            <name>Sonatype Nexus release repository</name>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+            <id>github</id>
+            <name>GitHub ricksbrown Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/ricksbrown/webdrivermanager</url>
         </repository>
     </distributionManagement>
 
